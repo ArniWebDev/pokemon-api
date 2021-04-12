@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+:root {
+	--pokemon-yellow: #ffcb06;
+	--pokemon-blue: #3366af;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Luckiest Guy", cursive;
+}
+
+body {
+	background-color: var(--pokemon-yellow);
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper-container {
+	height: 100vh;
+}
+
+.pokemon-banner {
+	height: 10vh;
+}
+
+.random-pokemon {
+	height: 300px;
+	width: 300px;
+	border: 1rem solid var(--pokemon-blue);
+	border-radius: 1rem;
+	margin: 3rem 0;
+}
+.random-pokemon > h2 {
+	font-size: 2rem;
+}
+.random-pokemon > img {
+	height: 60%;
+}
+
+.pokeball {
+	height: 5vh;
+	cursor: pointer;
+}
